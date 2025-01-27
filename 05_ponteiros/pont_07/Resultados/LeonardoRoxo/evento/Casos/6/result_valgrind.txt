@@ -1,0 +1,51 @@
+==17455== Memcheck, a memory error detector
+==17455== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==17455== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==17455== Command: Resultados/LeonardoRoxo/evento/prog Resultados/LeonardoRoxo/evento/Casos/6
+==17455== Parent PID: 17454
+==17455== 
+==17455== Conditional jump or move depends on uninitialised value(s)
+==17455==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==17455==    by 0x48DBD97: __printf_buffer (vfprintf-process-arg.c:435)
+==17455==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==17455==    by 0x48D11A2: printf (printf.c:33)
+==17455==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455== 
+==17455== Conditional jump or move depends on uninitialised value(s)
+==17455==    at 0x48DB0BB: __printf_buffer (vfprintf-process-arg.c:58)
+==17455==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==17455==    by 0x48D11A2: printf (printf.c:33)
+==17455==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455== 
+==17455== Use of uninitialised value of size 8
+==17455==    at 0x48D00AB: _itoa_word (_itoa.c:183)
+==17455==    by 0x48DAC8B: __printf_buffer (vfprintf-process-arg.c:155)
+==17455==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==17455==    by 0x48D11A2: printf (printf.c:33)
+==17455==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455== 
+==17455== Conditional jump or move depends on uninitialised value(s)
+==17455==    at 0x48D00BC: _itoa_word (_itoa.c:183)
+==17455==    by 0x48DAC8B: __printf_buffer (vfprintf-process-arg.c:155)
+==17455==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==17455==    by 0x48D11A2: printf (printf.c:33)
+==17455==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455== 
+==17455== Conditional jump or move depends on uninitialised value(s)
+==17455==    at 0x48DAD75: __printf_buffer (vfprintf-process-arg.c:186)
+==17455==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==17455==    by 0x48D11A2: printf (printf.c:33)
+==17455==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455== 
+==17455== Conditional jump or move depends on uninitialised value(s)
+==17455==    at 0x48DAD79: __printf_buffer (vfprintf-process-arg.c:186)
+==17455==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==17455==    by 0x48D11A2: printf (printf.c:33)
+==17455==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/evento/prog)
+==17455== 

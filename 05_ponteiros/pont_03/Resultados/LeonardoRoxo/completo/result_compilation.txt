@@ -1,0 +1,11 @@
+vetor.c: In function ‘OrdeneCrescente’:
+vetor.c:58:4: warning: implicit declaration of function ‘bubble_sort’ [-Wimplicit-function-declaration]
+   58 |    bubble_sort(vet, tam);
+      |    ^~~~~~~~~~~
+vetor.c: At top level:
+vetor.c:74:6: warning: conflicting types for ‘bubble_sort’; have ‘void(int *, int)’
+   74 | void bubble_sort (int vet[], int n) {
+      |      ^~~~~~~~~~~
+vetor.c:58:4: note: previous implicit declaration of ‘bubble_sort’ with type ‘void(int *, int)’
+   58 |    bubble_sort(vet, tam);
+      |    ^~~~~~~~~~~

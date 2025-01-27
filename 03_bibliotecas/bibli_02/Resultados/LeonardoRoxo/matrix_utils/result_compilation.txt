@@ -1,0 +1,11 @@
+matrix_utils.c: In function ‘matrix_print’:
+matrix_utils.c:22:15: warning: unused variable ‘num’ [-Wunused-variable]
+   22 |     int i, j, num;
+      |               ^~~
+matrix_utils.c: In function ‘matrix_multiply’:
+matrix_utils.c:109:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  109 |     for (i_result = 1; i_result <= rows1; i_result++);
+      |     ^~~
+matrix_utils.c:110:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  110 |     {
+      |     ^

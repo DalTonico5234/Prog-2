@@ -1,0 +1,10 @@
+==16867== Memcheck, a memory error detector
+==16867== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==16867== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==16867== Command: Resultados/LeonardoRoxo/completo/prog Resultados/LeonardoRoxo/completo/Casos/7
+==16867== Parent PID: 16866
+==16867== 
+==16867== Conditional jump or move depends on uninitialised value(s)
+==16867==    at 0x1093AD: trocarDataEvento (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16867==    by 0x109718: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16867== 

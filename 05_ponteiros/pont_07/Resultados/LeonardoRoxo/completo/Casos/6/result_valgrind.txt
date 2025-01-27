@@ -1,0 +1,51 @@
+==16632== Memcheck, a memory error detector
+==16632== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==16632== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==16632== Command: Resultados/LeonardoRoxo/completo/prog Resultados/LeonardoRoxo/completo/Casos/6
+==16632== Parent PID: 16631
+==16632== 
+==16632== Conditional jump or move depends on uninitialised value(s)
+==16632==    at 0x484F229: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==16632==    by 0x48DBD97: __printf_buffer (vfprintf-process-arg.c:435)
+==16632==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==16632==    by 0x48D11A2: printf (printf.c:33)
+==16632==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632== 
+==16632== Conditional jump or move depends on uninitialised value(s)
+==16632==    at 0x48DB0BB: __printf_buffer (vfprintf-process-arg.c:58)
+==16632==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==16632==    by 0x48D11A2: printf (printf.c:33)
+==16632==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632== 
+==16632== Use of uninitialised value of size 8
+==16632==    at 0x48D00AB: _itoa_word (_itoa.c:183)
+==16632==    by 0x48DAC8B: __printf_buffer (vfprintf-process-arg.c:155)
+==16632==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==16632==    by 0x48D11A2: printf (printf.c:33)
+==16632==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632== 
+==16632== Conditional jump or move depends on uninitialised value(s)
+==16632==    at 0x48D00BC: _itoa_word (_itoa.c:183)
+==16632==    by 0x48DAC8B: __printf_buffer (vfprintf-process-arg.c:155)
+==16632==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==16632==    by 0x48D11A2: printf (printf.c:33)
+==16632==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632== 
+==16632== Conditional jump or move depends on uninitialised value(s)
+==16632==    at 0x48DAD75: __printf_buffer (vfprintf-process-arg.c:186)
+==16632==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==16632==    by 0x48D11A2: printf (printf.c:33)
+==16632==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632== 
+==16632== Conditional jump or move depends on uninitialised value(s)
+==16632==    at 0x48DAD79: __printf_buffer (vfprintf-process-arg.c:186)
+==16632==    by 0x48DC72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==16632==    by 0x48D11A2: printf (printf.c:33)
+==16632==    by 0x10934C: exibirEventos (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632==    by 0x1096FD: main (in /home/dal_tonico/imakeprogama/UFES/Prog2/exercicios-gerais/05_ponteiros/pont_07/Resultados/LeonardoRoxo/completo/prog)
+==16632== 

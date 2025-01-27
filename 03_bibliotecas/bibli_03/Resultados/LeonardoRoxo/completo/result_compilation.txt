@@ -1,0 +1,16 @@
+data.c: In function ‘numeroDiasMes’:
+data.c:289:1: warning: control reaches end of non-void function [-Wreturn-type]
+  289 | }
+      | ^
+data.c: In function ‘comparaData’:
+data.c:327:1: warning: control reaches end of non-void function [-Wreturn-type]
+  327 | }
+      | ^
+data.c: In function ‘calculaDiferencaDias’:
+data.c:391:1: warning: control reaches end of non-void function [-Wreturn-type]
+  391 | }
+      | ^
+main.c: In function ‘imprimeResultados’:
+main.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
